@@ -1,11 +1,14 @@
 import React, {FC} from 'react';
 import './App.css';
-import SomeComponent from "./components/SomeComponent";
+import UsersComponent from "./components/UsersComponent";
+
+
 
 const App: FC = () => {
     return (
         <div>
-            <SomeComponent message={'hello okten'}/>
+            <UsersComponent/>
+
         </div>
 
     );
